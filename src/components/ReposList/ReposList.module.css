@@ -1,0 +1,39 @@
+.list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.listItem {
+    list-style: none;
+    padding: 16px;
+    border: 1px solid var(--black-color);
+    border-radius: 8px;
+    background-color: var(--bg-color-dark);
+}
+
+.itemName b, .itemLanguage b {
+    margin-right: 8px;
+}
+
+.itemLanguage {
+    margin: 8px 0;
+}
+
+.itemLink {
+    display: block;
+    background-color: var(--header-red--primary);
+    color: var(--text-color);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: .3s;
+} .itemLink:hover {
+    text-shadow: rgba(0, 0, 0, .5) 1px 2px 3px;
+    background-color: var(--red-color--hover);
+    letter-spacing: .3  px;
+    border-radius: 10px;
+}

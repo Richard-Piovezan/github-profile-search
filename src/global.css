@@ -1,0 +1,28 @@
+:root {
+    --header-red--primary: #F24141;
+    --header-red--secondary: #A62D2D;
+    --header-red--third: #591919;
+    --red-color--hover: #E95A5A;
+    --bg-color: #303030;
+    --bg-color-dark: #202020;
+    --text-color: #eee;
+    --black-color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: var(--text-color);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
