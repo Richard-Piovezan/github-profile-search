@@ -10,7 +10,11 @@ function App() {
 
   return (
     <>
-      <input type="text" onBlur={(e => setNomeUsuario(e.target.value))}/>
+      <div className="formSearch">
+        <h2>Insira o nome do usuário:</h2>
+        <input type="text" onBlur={(e => setNomeUsuario(e.target.value))} placeholder="richard-piovezan"/>
+        <img src="https://img.icons8.com/m_rounded/512/FA5252/github.png" alt="GitHub icon" />
+      </div>
 
 
       {nomeUsuario.length > 4 && (
